@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: 'Android';
+  src: url('fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+}
+:root {
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: 'Bebas Neue', cursive;
+  --fonte-android: 'Android, cursive';
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1em;
+  line-height: 2em;
+}
+body {
+  background-image: url(Crack/rm295-mynt-22.jpg);
+  font-family: var(--fonte-padrao);
+  background-size: 100%;
+}
+header {
+  height: 150px;
+  text-align: center;
+  padding-top: 40px;
+  background-image: url(Crack/wallpaperbetter.com_1360x768.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header > p {
+  color: white;
+  font-family: var(--fonte-padrao);
+  font-size: 1.2em;
+  max-width: 500px;
+  margin: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#crn{
+  display: block;
+  max-width: 600px;
+  min-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  background-color: purple;
+  padding: 10px;
+  box-shadow: 0px 7px 7px black;
+}
+
+nav > a {
+  color: pink;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+#topado{
+  color: black;
+}
+
+nav > a:hover {
+  background-color: pink;
+  color: var(--cor5);
+  border-radius: 5px;
+}
+main {
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#elo{
+  max-width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+main h1 {
+  color: var(--cor5);
+  font-family: var(--fonte-destaque);
+  font-size: 3em;
+  text-align: center;
+}
+main img {
+  width: 100%;
+}
+
+#giu{
+  display: block;
+  position: relative;
+  height: 480px;
+  max-width: 450px;
+  border: solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#gg{
+  text-align: center;
+}
+
+header > h1 {
+  margin-top: 30px;
+  color: white;
+  font-family: var(--fonte-destaque);
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.508);
+}
+
+main h2 {
+  font-family: var(--fonte-destaque);
+}
+div.video {
+  background-color: purple;
+  margin-bottom: 30px;
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 58.5%;
+}
+
+div.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+main img.pequena {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+aside {
+  background-color: rgba(255, 192, 203, 0.464);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+aside > ul {
+  list-style-position: inside;
+  columns: 2;
+}
+aside > h3 {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin: -10px -10px 0px -10px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.542);
+}
+footer {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+footer a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--cor1);
+}
+
+#logodoinsta{
+  width: 40px;
+  position: relative;
+  top: 12px;
+  left: 5px;
+  border-radius: 20px;
+}
+
+#logodowhats{
+  width: 40px;
+  position: relative;
+  top: 12px;
+  left: 10px;
+  border-radius: 20px;
+}
